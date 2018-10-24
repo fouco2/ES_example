@@ -23,7 +23,7 @@ I found this project useful for my application because even if it was on a hardw
         └── software
             ├── HardWare_counter                    #C Code of the project, classified by synchronization type
             │    ├── nios0                          #C code for the first Nios 
-            │    └── nios1                         #C code for the second Nios
+            │    └── nios1                          #C code for the second Nios
             ├── HardWare_mailbox
             ├── HardWare_mutex
             └── parallel_port_test.c
