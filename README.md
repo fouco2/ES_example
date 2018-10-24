@@ -6,7 +6,7 @@ It was a three weeks project by group of two.
 
 I found this project useful for my application because even if it was on a hardware design with two Nios-2 soft processor, the synchronisation technics between a multicore ARM processor or just a multithreads code running on a single ARM through a RTOS are the same.
 
-**Lab_Multiprocessor**
+**Lab_Multiprocessor** <br />
 ├── report                                      # report of our project <br />
 ├── Lab_MultiProcessor                          # Project folder<br />
 │    ├── hdl <br />
@@ -17,7 +17,9 @@ I found this project useful for my application because even if it was on a hardw
 │    │    ├── tp.qpf                             # quartus project file<br />
 │    │    ├── mp.qsys                            # qsys deign <br />
 │    │    └── software<br />
-│    │    │    ├── HardWare_counter              # C Code and bsp for the two processor<br />
+│    │    │    ├── HardWare_counter              # C Code of the project, classified by synchronization<br />
+│    │    │    │    ├── nios0 <br />             # C code for the first Nios 
+│    │    │    │    ├── nios1 <br />             # C code for the second Nios 
 │    │    │    ├── HardWare_mailbox<br />
 │    │    │    ├── HardWare_mutex<br />
 │    │    │    └── parallel_port_test.c<br />
