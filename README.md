@@ -1,10 +1,13 @@
-*This repo contains an exemple of Embedded system that i have design*
+# Embedded system design example
 
-I choosed to present you a small project done during the Real-Time embedded systems course.
-The idea of this TP was to implement and profile differents synchronysation technics for a multi-processor design. 
-It was a three weeks project by group of two.
+*This repo contains an example of Embedded system that I have designed*
 
-I found this project useful for my application because even if it was on a hardware design with two Nios-2 soft processor, the synchronisation technics between a multicore ARM processor or just a multithreads code running on a single ARM through a RTOS are the same.
+I chose to present you a small project done during the [Real-Time embedded systems course](http://edu.epfl.ch/coursebook/fr/real-time-embedded-systems-CS-476). 
+The idea of this TP was to implement and profile different synchronization technics for a multi-processor design, with two nios 2 on a Cyclone V FPGA.  
+It was a three weeks project by a group of two.
+
+I found this project useful for my application because even if it was on a hardware design with two Nios-2 soft processors, the synchronisation technics between a Multicores ARM processor or just a multithreads code running on a single ARM through an RTOS are the same.
+
 
 **Lab_Multiprocessor** <br />
 <pre>
