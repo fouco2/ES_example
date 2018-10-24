@@ -10,17 +10,17 @@ I found this project useful for my application because even if it was on a hardw
 <pre>
 ├── report                              
 └── Lab_MultiProcessor                 
-   ├── hdl 
+    ├── hdl 
     │    ├── DE0_Nano_SoC_top_level.vhd             # Top Level hardware entity
     │    └── prog_counter.vhd                       # custom parallele port design 
     └── quartus
-        ├── pin_assignment_DE0_Nano_SoC.tcl   
-        ├── tp.qpf                             
-        ├── mp.qsys                           
-        └── software<br />
-            ├── HardWare_counter              #C Code of the project, classified by synchronization
-            │    ├── nios0                    #C code for the first Nios 
-            │    └──  nios1                   #C code for the second Nios
+        ├── pin_assignment_DE0_Nano_SoC.tcl         # pin assignement for the board 
+        ├── tp.qpf                                  # Quartus project file
+        ├── mp.qsys                                 # Qsys entity
+        └── software
+            ├── HardWare_counter                    #C Code of the project, classified by synchronization
+            │    ├── nios0                          #C code for the first Nios 
+            │    └──  nios1                         #C code for the second Nios
             ├── HardWare_mailbox
             ├── HardWare_mutex
             └── parallel_port_test.c
