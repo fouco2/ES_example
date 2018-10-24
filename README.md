@@ -1,4 +1,4 @@
-*This repo contains an exemple of Embedded system that i have design 
+*This repo contains an exemple of Embedded system that i have design*
 
 I choosed to present you a small project done during the Real-Time embedded systems course.
 The idea of this TP was to implement and profile differents synchronysation technics for a multi-processor design. 
