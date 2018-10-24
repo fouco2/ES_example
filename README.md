@@ -17,9 +17,9 @@ I found this project useful for my application because even if it was on a hardw
 │    │    ├── tp.qpf                             # quartus project file<br />
 │    │    ├── mp.qsys                            # qsys deign <br />
 │    │    └── software<br />
-│    │    │    ├── HardWare_counter              # C Code of the project, classified by synchronization<br />
-│    │    │    │    ├── nios0 <br />             # C code for the first Nios 
-│    │    │    │    ├── nios1 <br />             # C code for the second Nios 
-│    │    │    ├── HardWare_mailbox<br />
-│    │    │    ├── HardWare_mutex<br />
-│    │    │    └── parallel_port_test.c<br />
+│    │        ├── HardWare_counter              # C Code of the project, classified by synchronization<br />
+│    │        │    ├── nios0                    # C code for the first Nios <br />
+│    │        │    └──  nios1                    # C code for the second Nios <br />
+│    │        ├── HardWare_mailbox<br />
+│    │        ├── HardWare_mutex<br />
+│    │        └── parallel_port_test.c<br />
