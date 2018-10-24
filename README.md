@@ -7,8 +7,8 @@ It was a three weeks project by group of two.
 I found this project useful for my application because even if it was on a hardware design with two Nios-2 soft processor, the synchronisation technics between a multicore ARM processor or just a multithreads code running on a single ARM through a RTOS are the same.
 
 **Lab_Multiprocessor** <br />
-├── report                                      # report of our project <br />
-└── Lab_MultiProcessor                          # Project folder<br />
+├── report                                &npsp;&npsp;&npsp;      # report of our project <br />
+└── Lab_MultiProcessor                   &npsp;&npsp;       # Project folder<br />
    ├── hdl <br />
     │    ├── DE0_Nano_SoC_top_level.vhd         # Top Level hardware entity<br />
     │    └── prog_counter.vhd                   # custom parallele port design<br />
