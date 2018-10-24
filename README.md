@@ -7,6 +7,7 @@ It was a three weeks project by group of two.
 I found this project useful for my application because even if it was on a hardware design with two Nios-2 soft processor, the synchronisation technics between a multicore ARM processor or just a multithreads code running on a single ARM through a RTOS are the same.
 
 **Lab_Multiprocessor** <br />
+<pre>
 ├── report                              
 └── Lab_MultiProcessor                 
    ├── hdl <br />
@@ -23,5 +24,4 @@ I found this project useful for my application because even if it was on a hardw
             ├── HardWare_mailbox<br />
             ├── HardWare_mutex<br />
             └── parallel_port_test.c<br />
- 
-    
+ <\pre>
