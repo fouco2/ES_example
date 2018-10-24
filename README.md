@@ -10,8 +10,8 @@ I found this project useful for my application because even if it was on a hardw
 ├── report                              
 └── Lab_MultiProcessor                 
    ├── hdl <br />
-    │    ├── DE0_Nano_SoC_top_level.vhd         # Top Level hardware entity<br />
-    │    └── prog_counter.vhd                   # custom parallele port design<br />
+    │    ├── DE0_Nano_SoC_top_level.vhd      >         # Top Level hardware entity<br />
+    │    └── prog_counter.vhd                       # custom parallele port design<br />
     └── quartus <br />
         ├── pin_assignment_DE0_Nano_SoC.tcl   
         ├── tp.qpf                             
@@ -24,3 +24,4 @@ I found this project useful for my application because even if it was on a hardw
             ├── HardWare_mutex<br />
             └── parallel_port_test.c<br />
  
+    
