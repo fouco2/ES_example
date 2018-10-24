@@ -8,18 +8,18 @@ I found this project useful for my application because even if it was on a hardw
 
 **Lab_Multiprocessor** <br />
 ├── report                                      # report of our project <br />
-├── Lab_MultiProcessor                          # Project folder<br />
-│    ├── hdl <br />
-│    │    ├── DE0_Nano_SoC_top_level.vhd         # Top Level hardware entity<br />
-│    │    └── prog_counter.vhd                   # custom parallele port design<br />
-│    └── quartus <br />
-│    │    ├── pin_assignment_DE0_Nano_SoC.tcl    # TCL of the board<br />
-│    │    ├── tp.qpf                             # quartus project file<br />
-│    │    ├── mp.qsys                            # qsys deign <br />
-│    │    └── software<br />
-│    │        ├── HardWare_counter              # C Code of the project, classified by synchronization<br />
-│    │        │    ├── nios0                    # C code for the first Nios <br />
-│    │        │    └──  nios1                    # C code for the second Nios <br />
-│    │        ├── HardWare_mailbox<br />
-│    │        ├── HardWare_mutex<br />
-│    │        └── parallel_port_test.c<br />
+└── Lab_MultiProcessor                          # Project folder<br />
+    ├── hdl <br />
+    │    ├── DE0_Nano_SoC_top_level.vhd         # Top Level hardware entity<br />
+    │    └── prog_counter.vhd                   # custom parallele port design<br />
+    └── quartus <br />
+        ├── pin_assignment_DE0_Nano_SoC.tcl    # TCL of the board<br />
+        ├── tp.qpf                             # quartus project file<br />
+        ├── mp.qsys                            # qsys deign <br />
+        └── software<br />
+            ├── HardWare_counter              # C Code of the project, classified by synchronization<br />
+            │    ├── nios0                    # C code for the first Nios <br />
+            │    └──  nios1                    # C code for the second Nios <br />
+            ├── HardWare_mailbox<br />
+            ├── HardWare_mutex<br />
+            └── parallel_port_test.c<br />
